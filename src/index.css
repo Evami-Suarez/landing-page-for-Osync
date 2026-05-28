@@ -2283,16 +2283,16 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-color: #f1f4f6;
   border-radius: 8px;
   background-color: #f1f4f6;
 }
 
 .preview-card:hover {
-  border-style: solid;
-  border-width: 3px;
-  border-color: #517df5;
+  /* border-style: solid; */
+  /* border-width: 3px; */
+  /* border-color: #517df5; */
 }
 
 .l3-bkg-wrap {

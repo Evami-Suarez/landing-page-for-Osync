@@ -183,7 +183,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <div className="footer-credits">
-            © 2026 ΩSYNC
+            SCF © 2026
           </div>
         </div>
       </div>

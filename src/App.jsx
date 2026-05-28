@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Problem from './components/Problem';
 import Team from './components/Team';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import './index.css';
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Problem />
       <Team />
+      <ContactForm />
       <Footer />
       <BackToTop />
     </>

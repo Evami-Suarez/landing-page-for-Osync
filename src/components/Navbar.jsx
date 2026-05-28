@@ -28,6 +28,9 @@ export default function Navbar() {
           <a href="#Team" className="nav-link w-inline-block">
             <div>Team</div>
           </a>
+          <a href="#Contact" className="nav-link w-inline-block">
+            <div>Contact</div>
+          </a>
         </nav>
         <div className="menu-button w-nav-button">
           <div className="w-icon-nav-menu"></div>
