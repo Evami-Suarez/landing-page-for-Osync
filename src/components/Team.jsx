@@ -1,10 +1,11 @@
 import React from 'react';
 import evamiImg from '../assets/evami.png';
 import jeraldImg from '../assets/jerald.png';
+import maryImg from '../assets/mary.jpeg'
 
 export default function Team() {
   const teamMembers = [
-    { name: "Mary Suarez", role: "Founder / Product Lead / Frontend Support" },
+    { name: "Mary Suarez", role: "Founder / Product Lead / Frontend Support", github: "https://github.com/Swellmary", linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
     { name: "Al Dave Alba", role: "Lead Backend Architect / Infrastructure Engineering" },
     { name: "Jerald Timbang", role: "Full-Stack Engineering", github: "https://github.com/jerald-timbang", linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
     { name: "Evami Suarez", role: "Full-Stack Engineering", github: "https://github.com/Evami-Suarez", linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
