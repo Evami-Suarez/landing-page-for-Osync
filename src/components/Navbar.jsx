@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div
       data-collapse="medium"
@@ -18,21 +20,21 @@ export default function Navbar() {
             <h2 style={{ margin: "0" }}>ΩSYNC</h2>
           </a>
         </div>
-        <nav role="navigation" className="menu-right w-nav-menu">
-          <a href="#About" className="nav-link w-inline-block">
+        <nav role="navigation" className="menu-right w-nav-menu" data-nav-menu-open={isMenuOpen ? "true" : undefined} style={{ backgroundColor: isMenuOpen ? "#fff" : "" }}>
+          <a href="#About" className="nav-link w-inline-block" onClick={() => setIsMenuOpen(false)}>
             <div>About</div>
           </a>
-          <a href="#Problem" className="nav-link w-inline-block">
+          <a href="#Problem" className="nav-link w-inline-block" onClick={() => setIsMenuOpen(false)}>
             <div>Problem We Solve</div>
           </a>
-          <a href="#Team" className="nav-link w-inline-block">
+          <a href="#Team" className="nav-link w-inline-block" onClick={() => setIsMenuOpen(false)}>
             <div>Team</div>
           </a>
-          <a href="#Contact" className="nav-link w-inline-block">
+          <a href="#Contact" className="nav-link w-inline-block" onClick={() => setIsMenuOpen(false)}>
             <div>Contact</div>
           </a>
         </nav>
-        <div className="menu-button w-nav-button">
+        <div className="menu-button w-nav-button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <div className="w-icon-nav-menu"></div>
         </div>
       </div>
