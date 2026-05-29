@@ -2,7 +2,7 @@ import React from 'react';
 import evamiImg from '../assets/evami.png';
 import jeraldImg from '../assets/jerald.png';
 import maryImg from '../assets/mary.jpeg'
-import carlImg from '../assets/CarL.png'
+import carlImg from '../assets/CarL.PNG'
 
 export default function Team() {
   const teamMembers = [
