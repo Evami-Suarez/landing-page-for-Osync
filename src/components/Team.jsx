@@ -23,14 +23,14 @@ export default function Team() {
         <p className="large-text center" style={{ maxWidth: "800px", margin: "0 auto 50px auto" }}>
           ΩSYNC is actively built by a multidisciplinary team of experts with the combined experience to deliver every layer of a complex financial protocol. We have aligned specialized talent across backend architecture, full-stack development, UI/UX design, cybersecurity, and regulatory compliance to ensure our platform is robust, secure, and audit-ready.
         </p>
-        <div className="content-grid preview" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "30px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "30px", alignItems: "stretch" }}>
           {teamMembers.map((member, index) => {
             return (
-              <div key={index} className="preview-card" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "20px", background: "white", borderRadius: "12px", boxShadow: "0 4px 12px rgba(0,0,0,0.05)", height: "auto", minHeight: "100%", boxSizing: "border-box", transition: "transform 0.3s ease, box-shadow 0.3s ease" }} onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.1)"; }} onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.05)"; }}>
+              <div key={index} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "20px", background: "white", borderRadius: "12px", boxShadow: "0 4px 12px rgba(0,0,0,0.05)", boxSizing: "border-box", transition: "transform 0.3s ease, box-shadow 0.3s ease", height: "100%" }} onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.1)"; }} onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.05)"; }}>
                 {member.image ? (
-                  <img src={member.image} alt={member.name} style={{ width: "100px", height: "100px", borderRadius: "50%", objectFit: "cover", margin: "0 auto 15px", display: "block" }} />
+                  <img src={member.image} alt={member.name} style={{ width: "100px", height: "100px", borderRadius: "50%", objectFit: "cover", margin: "0 auto 15px", display: "block", flexShrink: 0 }} />
                 ) : (
-                  <div style={{ width: "100px", height: "100px", borderRadius: "50%", background: "#eee", margin: "0 auto 15px" }}></div>
+                  <div style={{ width: "100px", height: "100px", borderRadius: "50%", background: "#eee", margin: "0 auto 15px", flexShrink: 0 }}></div>
                 )}
                 <h3 style={{ fontSize: "1.25rem", marginBottom: "5px" }}>{member.name}</h3>
                 <p style={{ color: "#666", marginBottom: "15px", flexGrow: 1 }}>{member.role}</p>
