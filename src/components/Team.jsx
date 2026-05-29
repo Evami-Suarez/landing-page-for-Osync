@@ -2,16 +2,17 @@ import React from 'react';
 import evamiImg from '../assets/evami.png';
 import jeraldImg from '../assets/jerald.png';
 import maryImg from '../assets/mary.jpeg'
+import carlImg from '../assets/CarL.png'
 
 export default function Team() {
   const teamMembers = [
     { name: "Mary Suarez", role: "Founder / Product Lead / Frontend Support", github: "https://github.com/Swellmary", linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
-    { name: "Al Dave Alba", role: "Lead Backend Architect / Infrastructure Engineering" },
+    { name: "Al Dave Alba", role: "Lead Backend Architect / Infrastructure Engineering", github: "https://github.com/aldavee", linkedin: "https://www.linkedin.com/in/aldavee" },
     { name: "Jerald Timbang", role: "Full-Stack Engineering", github: "https://github.com/jerald-timbang", linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
     { name: "Evami Suarez", role: "Full-Stack Engineering", github: "https://github.com/Evami-Suarez", linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
     { name: "Renato Estravela Jr.", role: "Frontend & Product Experience / Security Support" },
     { name: "Jie Clark Terec", role: "Security Engineering Lead / Backend Engineering" },
-    { name: "Jesus Carl Sanchez", role: "Mobile Engineering Lead / Full-Stack / Infrastructure Support" },
+    { name: "Jesus Carl Sanchez", role: "Mobile Engineering Lead / Full-Stack / Infrastructure Support", github: "https://github.com/CarLKnight6", linkedin: "linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
     { name: "Lea Rose Geroy", role: "Compliance & Regulatory Readiness" },
     { name: "Jesus Erwin Suarez", role: "Senior Advisor / Audit / Infrastructure Support" }
   ];
@@ -23,7 +24,7 @@ export default function Team() {
         <p className="large-text center" style={{ maxWidth: "800px", margin: "0 auto 50px auto" }}>
           ΩSYNC is actively built by a multidisciplinary team of experts with the combined experience to deliver every layer of a complex financial protocol. We have aligned specialized talent across backend architecture, full-stack development, UI/UX design, cybersecurity, and regulatory compliance to ensure our platform is robust, secure, and audit-ready.
         </p>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "30px", alignItems: "stretch" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "30px", alignItems: "stretch", width: "100%" }}>
           {teamMembers.map((member, index) => {
             return (
               <div key={index} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", padding: "20px", background: "white", borderRadius: "12px", boxShadow: "0 4px 12px rgba(0,0,0,0.05)", boxSizing: "border-box", transition: "transform 0.3s ease, box-shadow 0.3s ease", height: "100%" }} onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-6px)"; e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.1)"; }} onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.05)"; }}>
