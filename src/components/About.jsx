@@ -14,7 +14,7 @@ export default function About() {
                 <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
               </div>
               <p className="text">
-                <strong className="bold-span">Offline transaction engine</strong> - exchange value without internet using QR, NFC, or Bluetooth with cryptographic security.
+                <strong className="bold-span">Offline Transaction Infrastructure</strong> — Exchange value through QR codes, NFC, or Bluetooth without continuous internet connectivity using cryptographically signed transactions.
               </p>
             </div>
 
@@ -23,7 +23,7 @@ export default function About() {
                 <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
               </div>
               <p className="text">
-                <strong className="bold-span">Unified wallet shared ledger</strong> - transact across different Philippine financial institutions in one ecosystem.
+                <strong className="bold-span">Shared Financial Coordination Layer</strong> — Enable families, cooperatives, organizations, and communities to manage funds, allocations, contributions, and spending accountability within a transparent shared wallet environment.
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function About() {
                 <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
               </div>
               <p className="text">
-                <strong className="bold-span">Not a bank</strong> - a payment orchestration layer.
+                <strong className="bold-span">Unified Multi-Institution Experience</strong> — Coordinate finances across participating banks, e-wallets, and financial service providers through a single user experience while maintaining existing financial relationships.
               </p>
             </div>
 
@@ -41,7 +41,16 @@ export default function About() {
                 <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
               </div>
               <p className="text">
-                <strong className="bold-span">Compliant & Standardized</strong> - Aligned with BSP regulations and ISO 20022 standards.
+                <strong className="bold-span">Allocation & Contribution Management</strong> — Assign budgets, spending limits, contribution targets, and participant permissions for collaborative financial activities.
+              </p>
+            </div>
+
+            <div className="checkmark-grid">
+              <div className="checkmark-circle">
+                <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
+              </div>
+              <p className="text">
+                <strong className="bold-span">Stellar Settlement & Auditability</strong> — Synchronize transactions to the Stellar network for settlement, reconciliation, transparency, and verifiable financial records.
               </p>
             </div>
 
@@ -50,7 +59,7 @@ export default function About() {
                 <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60feb2cfbbadbe111e105233_check_black_24dp.svg" alt="" className="point-icon" />
               </div>
               <p className="text">
-                <strong className="bold-span">Stellar Integration</strong> - Built on the Stellar network.
+                <strong className="bold-span">Regulatory-Ready Architecture</strong> — Designed with auditability, transparency, and standards-based interoperability in mind, following architectural principles commonly used in regulated financial systems and ISO 20022-based ecosystems.
               </p>
             </div>
 

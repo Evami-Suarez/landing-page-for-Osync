@@ -6,15 +6,15 @@ import carlImg from '../assets/CarL.PNG'
 
 export default function Team() {
   const teamMembers = [
-    { name: "Mary Suarez", role: "Founder / Product Lead / Frontend Support", github: "https://github.com/Swellmary", linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
-    { name: "Al Dave Alba", role: "Lead Backend Architect / Infrastructure Engineering", github: "https://github.com/aldavee", linkedin: "https://www.linkedin.com/in/aldavee" },
+    { name: "Well Mary Suarez", role: "Founder | Product Lead | Frontend Support", github: "https://github.com/Swellmary", linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
+    { name: "Al Dave Alba", role: "Lead Backend Architect | Infrastructure & Security Engineering", github: "https://github.com/aldavee", linkedin: "https://www.linkedin.com/in/aldavee" },
+    { name: "Jesus Carl Sancheja", role: "Mobile Engineering Lead", github: "https://github.com/CarLKnight6", linkedin: "https://linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
+    { name: "Renato Jr. Estravela", role: "UI/UX | Frontend Developer | Security Engineering" },
+    { name: "Jie Clark Terec", role: "Security Engineering Lead | Full-Stack Engineering" },
     { name: "Jerald Timbang", role: "Full-Stack Engineering", github: "https://github.com/jerald-timbang", linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
     { name: "Evami Suarez", role: "Full-Stack Engineering", github: "https://github.com/Evami-Suarez", linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
-    { name: "Renato Estravela Jr.", role: "Frontend & Product Experience / Security Support" },
-    { name: "Jie Clark Terec", role: "Security Engineering Lead / Backend Engineering" },
-    { name: "Jesus Carl Sanchez", role: "Mobile Engineering Lead / Full-Stack / Infrastructure Support", github: "https://github.com/CarLKnight6", linkedin: "linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
-    { name: "Lea Rose Geroy", role: "Compliance & Regulatory Readiness" },
-    { name: "Jesus Erwin Suarez", role: "Senior Advisor / Audit / Infrastructure Support" }
+    { name: "Lea Rose Geroy", role: "Compliance & Marketing" },
+    { name: "Jesus Erwin Suarez", role: "Senior Advisor | Audit | Infrastructure Engineering" }
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function Team() {
       <div className="container">
         <h2 className="h2-title centered" style={{ marginBottom: "20px" }}>Team</h2>
         <p className="large-text center" style={{ maxWidth: "800px", margin: "0 auto 50px auto" }}>
-          ΩSYNC is actively built by a multidisciplinary team of experts with the combined experience to deliver every layer of a complex financial protocol. We have aligned specialized talent across backend architecture, full-stack development, UI/UX design, cybersecurity, and regulatory compliance to ensure our platform is robust, secure, and audit-ready.
+          ΩSYNC is built by a team of 9 professionals with experience in software engineering, mobile application development, backend architecture, infrastructure engineering, compliance, and secure system design. Team members have collectively delivered web platforms, mobile applications, enterprise systems, API integrations, business management systems, and digital products across multiple industries.
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "30px", alignItems: "stretch", width: "100%" }}>
           {teamMembers.map((member, index) => {
