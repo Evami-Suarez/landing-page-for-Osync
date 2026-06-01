@@ -13,7 +13,7 @@ import clarkImg from '../assets/clark.jpeg';
 export default function Team() {
   // 9 members → 3 cols × 3 rows
   const teamMembers = [
-    { name: "Well Mary Suarez",    role: "Founder | Product Lead | Frontend Support",     linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
+    { name: "Well Mary Suarez",    role: "Founder | Product Lead | Frontend Developer",     linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
     { name: "Al Dave Alba",        role: "Lead Backend Architect | Platform Engineering | Security Engineering",  linkedin: "https://www.linkedin.com/in/aldavee", image: daveImg },
     { name: "Jesus Carl Sancheja", role: "Mobile Engineering Lead",           linkedin: "https://linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
     { name: "Renato Jr. Estravela",role: "UI/UX | Frontend Developer | Security Engineering", linkedin: "https://www.linkedin.com/in/renato-estravela", image: natImg },
