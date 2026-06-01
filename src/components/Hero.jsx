@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -21,14 +22,14 @@ export default function Hero() {
               </div>
               <div className="button-text">Learn More</div>
             </a>
-            <a href="#Contact" className="button secondary white-text w-inline-block">
+            <Link to="/contact" className="button secondary white-text w-inline-block">
               <div className="button-arrow-wrap">
                 <div className="button-arrow-circle">
                   <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60eab26ea3c71784504ae05d_arrow_forward_black_24dp.svg" loading="lazy" alt="" className="button-arrow" />
                 </div>
               </div>
               <div className="button-text">Contact Team</div>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="circle-3"></div>

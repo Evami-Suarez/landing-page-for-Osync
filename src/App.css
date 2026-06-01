@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+
+/* Mobile menu transition override */
+@media screen and (max-width: 991px) {
+  .w-nav-menu {
+    display: block !important;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .w-nav-menu[data-nav-menu-open="true"] {
+    max-height: 400px;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
