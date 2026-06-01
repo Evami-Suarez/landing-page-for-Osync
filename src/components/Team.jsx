@@ -14,14 +14,14 @@ export default function Team() {
   // 9 members → 3 cols × 3 rows
   const teamMembers = [
     { name: "Well Mary Suarez",    role: "Founder | Product Lead | Frontend Support",     linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
-    { name: "Al Dave Alba",        role: "Lead Backend Architect | Infrastructure & Security Engineering",  linkedin: "https://www.linkedin.com/in/aldavee", image: daveImg },
+    { name: "Al Dave Alba",        role: "Lead Backend Architect | Platform Engineering | Security Engineering",  linkedin: "https://www.linkedin.com/in/aldavee", image: daveImg },
     { name: "Jesus Carl Sancheja", role: "Mobile Engineering Lead",           linkedin: "https://linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
     { name: "Renato Jr. Estravela",role: "UI/UX | Frontend Developer | Security Engineering", linkedin: "https://www.linkedin.com/in/renato-estravela", image: natImg },
     { name: "Jie Clark Terec",     role: "Security Engineering Lead | Full-Stack Engineering", linkedin: "https://www.linkedin.com/in/jieclarkterec/", image: clarkImg},
     { name: "Jerald Timbang",      role: "Full-Stack Engineering",         linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
     { name: "Evami Suarez",        role: "Full-Stack Engineering",     linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
     { name: "Lea Rose Geroy",      role: "Compliance & Marketing", linkedin: "https://www.linkedin.com/in/lgeroy/", image: leaImg },
-    { name: "Jesus Erwin Suarez",  role: "Senior Advisor | Audit | Infrastructure Engineering", linkedin: "https://www.linkedin.com/in/jesus-erwin-suarez-69127566/", image: erwinImg  }
+    { name: "Jesus Erwin Suarez",  role: "Senior Advisor | Audit | Platform Engineering", linkedin: "https://www.linkedin.com/in/jesus-erwin-suarez-69127566/", image: erwinImg  }
   ];
 
   return (
@@ -29,8 +29,7 @@ export default function Team() {
       <div className="container">
         <h2 className="h2-title centered" style={{ marginBottom: "16px" }}>Team</h2>
         <p className="large-text center" style={{ maxWidth: "760px", margin: "0 auto 60px auto", color: "#555" }}>
-          ΩSYNC is built by a team of 9 professionals with experience in software engineering, mobile application development,
-          backend architecture, infrastructure engineering, compliance, and secure system design.
+         ΩSYNC is built by a team of 9 professionals with experience in software engineering, mobile application development, backend architecture, infrastructure engineering, compliance, and secure system design. Team members have collectively delivered web platforms, mobile applications, enterprise systems, API integrations, business management systems, and digital products across multiple industries. This combination of technical and operational expertise positions the team to successfully design, build, secure, and deploy ΩSYNC's offline-first payment and shared wallet infrastructure.
         </p>
 
         {/* 3 × 3 grid */}
