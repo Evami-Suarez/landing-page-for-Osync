@@ -55,7 +55,7 @@ export default function About() {
                   <img src={checkIcon} alt="" className="point-icon" />
                 </div>
                 <p className="text">
-                  <strong className="bold-span">{pt.title}</strong> — {pt.body}
+                  <strong className="bold-span">{pt.title}</strong> <br />{pt.body}
                 </p>
               </div>
             ))}
@@ -68,7 +68,7 @@ export default function About() {
                   <img src={checkIcon} alt="" className="point-icon" />
                 </div>
                 <p className="text">
-                  <strong className="bold-span">{pt.title}</strong> — {pt.body}
+                  <strong className="bold-span">{pt.title}</strong> <br /> {pt.body}
                 </p>
               </div>
             ))}

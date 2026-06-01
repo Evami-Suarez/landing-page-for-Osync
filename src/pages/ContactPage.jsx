@@ -123,13 +123,13 @@ export default function ContactPage() {
               Have a question or want to learn more about ΩSYNC? We'd love to hear from you.
             </p>
             <div className="button-container _30px-margin" style={{ justifyContent: 'center' }}>
-              <Link to="/" className="button dark w-inline-block">
-                <div className="button-arrow-wrap" style={{ transform: 'rotate(180deg)' }}>
-                  <div className="button-arrow-circle">
+              <Link to="/" className="button dark w-inline-block" style={{ flexDirection: 'row-reverse' }}>
+                <div className="button-arrow-wrap">
+                  <div className="button-arrow-circle" style={{ transform: 'rotate(180deg)' }}>
                     <img src="https://assets.website-files.com/60ea9f30b63de7972189acfa/60eab26ea3c71784504ae05d_arrow_forward_black_24dp.svg" loading="lazy" alt="" className="button-arrow" />
                   </div>
                 </div>
-                <div className="button-text">Back to Home</div>
+                <div className="button-text" style={{ marginRight: '12px' }}>Back to Home</div>
               </Link>
             </div>
           </div>

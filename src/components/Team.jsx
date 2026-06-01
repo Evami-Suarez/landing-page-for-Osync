@@ -3,19 +3,25 @@ import evamiImg from '../assets/evami.png';
 import jeraldImg from '../assets/jerald.png';
 import maryImg from '../assets/mary.jpeg';
 import carlImg from '../assets/CarL.PNG';
+import erwinImg from '../assets/Erwin.jpeg';
+import daveImg from '../assets/Dave.jpg';
+import natImg from '../assets/Nat.jpeg';
+import leaImg from '../assets/Lea.png';
+import clarkImg from '../assets/clark.jpg';
+
 
 export default function Team() {
   // 9 members → 3 cols × 3 rows
   const teamMembers = [
-    { name: "Well Mary Suarez",    role: "Founder | Product Lead | Frontend Support",              github: "https://github.com/Swellmary",       linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
-    { name: "Al Dave Alba",        role: "Lead Backend Architect | Infrastructure & Security Engineering", github: "https://github.com/aldavee",          linkedin: "https://www.linkedin.com/in/aldavee" },
-    { name: "Jesus Carl Sancheja", role: "Mobile Engineering Lead",                                 github: "https://github.com/CarLKnight6",      linkedin: "https://linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
-    { name: "Renato Jr. Estravela",role: "UI/UX | Frontend Developer | Security Engineering" },
-    { name: "Jie Clark Terec",     role: "Security Engineering Lead | Full-Stack Engineering" },
-    { name: "Jerald Timbang",      role: "Full-Stack Engineering",                                  github: "https://github.com/jerald-timbang",   linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
-    { name: "Evami Suarez",        role: "Full-Stack Engineering",                                  github: "https://github.com/Evami-Suarez",     linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
-    { name: "Lea Rose Geroy",      role: "Compliance & Marketing" },
-    { name: "Jesus Erwin Suarez",  role: "Senior Advisor | Audit | Infrastructure Engineering" }
+    { name: "Well Mary Suarez",    role: "Founder | Product Lead | Frontend Support",     linkedin: "https://www.linkedin.com/in/well-mary-suarez-2b511217b", image: maryImg },
+    { name: "Al Dave Alba",        role: "Lead Backend Architect | Infrastructure & Security Engineering",  linkedin: "https://www.linkedin.com/in/aldavee", image: daveImg },
+    { name: "Jesus Carl Sancheja", role: "Mobile Engineering Lead",           linkedin: "https://linkedin.com/in/jesus-carl-sancheja-58555713b/", image: carlImg },
+    { name: "Renato Jr. Estravela",role: "UI/UX | Frontend Developer | Security Engineering", linkedin: "https://www.linkedin.com/in/renato-estravela", image: natImg },
+    { name: "Jie Clark Terec",     role: "Security Engineering Lead | Full-Stack Engineering", linkedin: "https://www.linkedin.com/in/jieclarkterec/", image: clarkImg},
+    { name: "Jerald Timbang",      role: "Full-Stack Engineering",         linkedin: "https://www.linkedin.com/in/jeraldtimbang", image: jeraldImg },
+    { name: "Evami Suarez",        role: "Full-Stack Engineering",     linkedin: "https://www.linkedin.com/in/evami-suarez", image: evamiImg },
+    { name: "Lea Rose Geroy",      role: "Compliance & Marketing", linkedin: "https://www.linkedin.com/in/lgeroy/", image: leaImg },
+    { name: "Jesus Erwin Suarez",  role: "Senior Advisor | Audit | Infrastructure Engineering", linkedin: "https://www.linkedin.com/in/jesus-erwin-suarez-69127566/", image: erwinImg  }
   ];
 
   return (
