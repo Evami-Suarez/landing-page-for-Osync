@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="title-wrap preview">
           <p className="large-text uptitle white">ΩSYNC</p>
           <h1 className="h1-title white centered" style={{ fontSize: "3rem", lineHeight: "1.2" }}>
-            Offline-First Payment Infrastructure and Shared Wallet
+            Offline-First Payment Infrastructure and Interoperable Shared Wallet
           </h1>
           <p className="extra-large-text center white">
             Secure offline payments, transparent shared wallets, and interoperable financial coordination powered by Stellar.
