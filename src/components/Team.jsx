@@ -7,7 +7,7 @@ import erwinImg from '../assets/Erwin.jpeg';
 import daveImg from '../assets/Dave.jpg';
 import natImg from '../assets/Nat.jpeg';
 import leaImg from '../assets/Lea.png';
-import clarkImg from '../assets/clark.jpg';
+import clarkImg from '../assets/clark.jpeg';
 
 
 export default function Team() {
